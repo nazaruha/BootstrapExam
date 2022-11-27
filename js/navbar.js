@@ -1,0 +1,4 @@
+var request = new XMLHttpRequest();
+request.open("GET", 'navbar.html', false); // false for synchronous request
+request.send(null);
+document.write(request.responseText);
